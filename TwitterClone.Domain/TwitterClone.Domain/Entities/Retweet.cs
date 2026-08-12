@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TwitterClone.Domain.Entities
 {
-    public class Retweet
+    public class Retweet:EntityBase
     {
         public Guid Id { get; }
         public Guid UserId { get; }

@@ -3,36 +3,56 @@
   "WorkspaceRootPath": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\bookmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\bookmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\systemnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\systemnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\retweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\retweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\commentnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\commentnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\friendrequestnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\friendrequestnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\likenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\likenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\tweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\tweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\retweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\retweet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\follow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\bookmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\bookmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|solutionrelative:twitterclone.domain\\entities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFEDB9B4-6C7C-9126-1A88-C52719F5E4BA}|TwitterClone.Domain\\TwitterClone.Domain.csproj|c:\\asp.net-course-repositories\\twittercloneapp\\twitterclone.domain\\twitterclone.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,96 +66,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Bookmark.cs",
-              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Bookmark.cs",
-              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\Bookmark.cs",
-              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Bookmark.cs",
-              "RelativeToolTip": "TwitterClone.Domain\\Entities\\Bookmark.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T09:12:46.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Message.cs",
-              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\Message.cs",
-              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Message.cs",
-              "RelativeToolTip": "TwitterClone.Domain\\Entities\\Message.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Title": "SystemNotification.cs",
+              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\SystemNotification.cs",
+              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\SystemNotification.cs",
+              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\SystemNotification.cs",
+              "RelativeToolTip": "TwitterClone.Domain\\Entities\\SystemNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T09:11:17.387Z",
+              "WhenOpened": "2026-08-12T22:06:32.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Notification.cs",
               "RelativeDocumentMoniker": "TwitterClone.Domain\\Notification.cs",
               "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Notification.cs",
               "RelativeToolTip": "TwitterClone.Domain\\Notification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-09T08:59:09.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Follow.cs",
-              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Follow.cs",
-              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\Follow.cs",
-              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Follow.cs",
-              "RelativeToolTip": "TwitterClone.Domain\\Entities\\Follow.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvw0AAAAdAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CommentNotification.cs",
+              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\CommentNotification.cs",
+              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\CommentNotification.cs",
+              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\CommentNotification.cs",
+              "RelativeToolTip": "TwitterClone.Domain\\Entities\\CommentNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T08:48:36.151Z",
+              "WhenOpened": "2026-08-12T22:02:16.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FriendRequestNotification.cs",
+              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\FriendRequestNotification.cs",
+              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\FriendRequestNotification.cs",
+              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\FriendRequestNotification.cs",
+              "RelativeToolTip": "TwitterClone.Domain\\Entities\\FriendRequestNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T22:04:23.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Retweet.cs",
-              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Retweet.cs",
-              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\Retweet.cs",
-              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Retweet.cs",
-              "RelativeToolTip": "TwitterClone.Domain\\Entities\\Retweet.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Title": "LikeNotification.cs",
+              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\LikeNotification.cs",
+              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\LikeNotification.cs",
+              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\LikeNotification.cs",
+              "RelativeToolTip": "TwitterClone.Domain\\Entities\\LikeNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T20:39:49.101Z",
+              "WhenOpened": "2026-08-12T21:57:16.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Like.cs",
-              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Like.cs",
-              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\Like.cs",
-              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Like.cs",
-              "RelativeToolTip": "TwitterClone.Domain\\Entities\\Like.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T20:37:06.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Tweet.cs",
               "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Tweet.cs",
               "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\Tweet.cs",
               "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Tweet.cs",
               "RelativeToolTip": "TwitterClone.Domain\\Entities\\Tweet.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T20:30:31.065Z"
+              "WhenOpened": "2026-08-08T20:30:31.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\EntityBase.cs",
+              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\EntityBase.cs",
+              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\EntityBase.cs",
+              "RelativeToolTip": "TwitterClone.Domain\\Entities\\EntityBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T14:11:17.149Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -145,13 +167,74 @@
               "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\User.cs",
               "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\User.cs",
               "RelativeToolTip": "TwitterClone.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowBQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T19:50:55.612Z"
+              "WhenOpened": "2026-08-08T19:50:55.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Message.cs",
+              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\Message.cs",
+              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Message.cs",
+              "RelativeToolTip": "TwitterClone.Domain\\Entities\\Message.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T09:11:17.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Bookmark.cs",
+              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Bookmark.cs",
+              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\Bookmark.cs",
+              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Bookmark.cs",
+              "RelativeToolTip": "TwitterClone.Domain\\Entities\\Bookmark.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T09:12:46.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Follow.cs",
+              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Follow.cs",
+              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\Follow.cs",
+              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Follow.cs",
+              "RelativeToolTip": "TwitterClone.Domain\\Entities\\Follow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T08:48:36.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Retweet.cs",
+              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Retweet.cs",
+              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\Retweet.cs",
+              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Retweet.cs",
+              "RelativeToolTip": "TwitterClone.Domain\\Entities\\Retweet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T20:39:49.101Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Like.cs",
+              "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Like.cs",
+              "RelativeDocumentMoniker": "TwitterClone.Domain\\Entities\\Like.cs",
+              "ToolTip": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Entities\\Like.cs",
+              "RelativeToolTip": "TwitterClone.Domain\\Entities\\Like.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T20:37:06.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Asp.net-course-repositories\\TwitterCloneApp\\TwitterClone.Domain\\TwitterClone.Domain\\Class1.cs",
               "RelativeDocumentMoniker": "TwitterClone.Domain\\Class1.cs",

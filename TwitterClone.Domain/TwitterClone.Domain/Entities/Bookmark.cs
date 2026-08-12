@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TwitterClone.Domain.Entities
 {
-    public class Bookmark
+    public class Bookmark:EntityBase
     {
         public Guid Id { get; }
         public Guid TweetId {  get; }

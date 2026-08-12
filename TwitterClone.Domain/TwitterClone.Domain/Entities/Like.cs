@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TwitterClone.Domain.Entities
 {
-    public class Like
+    public class Like:EntityBase
     {
         public Guid UserId { get; }
         public Guid TweetId { get; }

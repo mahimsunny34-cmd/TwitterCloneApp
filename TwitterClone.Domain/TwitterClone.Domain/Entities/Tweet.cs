@@ -5,16 +5,14 @@ using System.Text;
 
 namespace TwitterClone.Domain.Entities
 {
-    public class Tweet
+    public class Tweet:EntityBase
     {
-        public Guid Id { get; }
-        public Guid AuthorId {  get; }
+        public Guid AuthorId { get; set; }
         public string Content { get; set; }
-        public Tweet(string content, Guid authorId)
+        public Tweet(string content, Guid authorId):base(Guid.NewGuid())
         {
-            Id = Guid.NewGuid();
-            Content = content;
-            AuthorId = authorId;
+            this.Content = content;
+            this.AuthorId = authorId;
         }
     }
 }

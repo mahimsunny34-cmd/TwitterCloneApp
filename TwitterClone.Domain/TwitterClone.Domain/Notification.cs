@@ -2,24 +2,21 @@
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using TwitterClone.Domain.Entities;
 
 namespace TwitterClone.Domain
 {
-    public class Notification
+    public class Notification: EntityBase
     {
-        public Guid Id { get; }
-        public Guid ReceiverId{  get; }
-        public Guid ActorId {  get; }
+        public Guid UserId { get; set; }
+        public string Message { get; set; }
         public string NotificationType { get;  set; }
-        public Guid TweetId { get; }
+        public Guid TweetId { get; set; }
+        public bool IsRead { get; set; }
 
-        public Notification(Guid receiverId, Guid actorId, string notificationType, Guid tweetId)
+        public Notification(string notificationType):base(Guid.NewGuid())
         {
-            this.Id = Guid.NewGuid();
-            this.ReceiverId = receiverId;
-            this.ActorId = actorId;
             this.NotificationType = notificationType;
-            this.TweetId = tweetId;
-        }
+        }   
     }
 }

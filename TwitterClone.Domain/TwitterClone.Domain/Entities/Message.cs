@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TwitterClone.Domain.Entities
 {
-    public class Message
+    public class Message:EntityBase
     {
         public Guid Id { get; }
         public Guid SenderId { get; }

@@ -4,19 +4,15 @@ using System.Text;
 
 namespace TwitterClone.Domain.Entities
 {
-    public class User
+    public class User:EntityBase
     {
-        public Guid Id { get; }
-        public string Username { get; set; }
-        public string Email { get; set; } 
-        public string Password { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
 
-        public User(string username, string email, string password)
+        public User() : base(Guid.NewGuid())
         {
-            Id = Guid.NewGuid();
-            Username = username;
-            Email = email;
-            Password = password;
         }
+
     }
 }
