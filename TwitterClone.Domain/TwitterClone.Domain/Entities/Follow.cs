@@ -6,12 +6,10 @@ namespace TwitterClone.Domain.Entities
 {
     public class Follow:EntityBase
     {
-        public Guid Id { get; }
         public Guid FollowerId { get; }
         public Guid FollowingId { get; }
-        public Follow(Guid followerId, Guid followingId)
+        public Follow(Guid followerId, Guid followingId):base(Guid.NewGuid())
         {
-            this.Id = Guid.NewGuid();
             this.FollowerId = followerId;
             this.FollowingId = followingId;
         }

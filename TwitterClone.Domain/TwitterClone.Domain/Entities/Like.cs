@@ -6,14 +6,12 @@ namespace TwitterClone.Domain.Entities
 {
     public class Like:EntityBase
     {
-        public Guid UserId { get; }
+        public Guid LikedByUserId { get; }
         public Guid TweetId { get; }
-        public DateTime LikedAt { get; } 
-        public Like(Guid userId, Guid tweetId)
+        public Like(Guid userId, Guid tweetId):base(Guid.NewGuid())
         {
-            UserId = userId;
+            LikedByUserId = userId;
             TweetId = tweetId;
-            LikedAt = DateTime.UtcNow;
         }
     }
 }

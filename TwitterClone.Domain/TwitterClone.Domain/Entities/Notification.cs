@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
-using TwitterClone.Domain.Entities;
 
-namespace TwitterClone.Domain
+namespace TwitterClone.Domain.Entities
 {
     public class Notification: EntityBase
     {

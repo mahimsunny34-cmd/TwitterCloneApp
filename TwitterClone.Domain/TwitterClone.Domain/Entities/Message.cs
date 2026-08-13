@@ -6,17 +6,18 @@ namespace TwitterClone.Domain.Entities
 {
     public class Message:EntityBase
     {
-        public Guid Id { get; }
         public Guid SenderId { get; }
         public Guid ReceiverId { get; }
         public string Content { get; set; }
-
-        public Message(Guid senderId, Guid receiverId, string content)
+        bool IsRead { get; set; }
+        public DateTime SentAt { get; set; }
+        public Message(Guid senderId, Guid receiverId, string content) : base(Guid.NewGuid())
         {
-            this.Id = Guid.NewGuid();
             this.SenderId = senderId;
             this.ReceiverId = receiverId;
             this.Content = content;
+            this.IsRead = false;
+            this.SentAt = DateTime.UtcNow;
         }
     }
 }

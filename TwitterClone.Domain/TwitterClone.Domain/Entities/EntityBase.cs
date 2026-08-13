@@ -17,5 +17,10 @@ namespace TwitterClone.Domain.Entities
             Id = id;
             CreatedAt = DateTime.UtcNow;
         }
+
+        public string DescribeRecord()
+        {
+            return $"Id: {Id}, CreatedAt: {CreatedAt}, ModifiedAt: {ModifiedAt}, CreatedBy: {CreatedBy}, ModifiedBy: {ModifiedBy}";
+        }
     }
 }

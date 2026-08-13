@@ -6,17 +6,14 @@ namespace TwitterClone.Domain.Entities
 {
     public class Bookmark:EntityBase
     {
-        public Guid Id { get; }
-        public Guid TweetId {  get; }
-        public Guid UserId{  get; }
-        public DateTime CreatedAt { get; set; } 
+        
+        public Guid TweetId { get; set; }
+        public Guid UserId{ get; set; }
 
-        public Bookmark(Guid tweetId, Guid userId)
+        public Bookmark(Guid TweetId,Guid UserId):base(Guid.NewGuid())
         {
-            this.Id = Guid.NewGuid();
-            this.TweetId = tweetId;
-            this.UserId = userId;
-            this.CreatedAt = DateTime.UtcNow;
+            this.TweetId = TweetId;
+            this.UserId = UserId;
         }
     }
 }

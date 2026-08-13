@@ -6,16 +6,14 @@ namespace TwitterClone.Domain.Entities
 {
     public class Retweet:EntityBase
     {
-        public Guid Id { get; }
-        public Guid UserId { get; }
-        public Guid OrginalTweetId { get; }
-        public Guid TweetId { get; }
-        public Retweet(Guid userId, Guid orginalTweetId, Guid tweetId)
+        public Guid ReTweetedByUserId { get; set; }
+        public Guid OrginalTweetId { get; set; }
+        public Guid TweetId { get; set; }
+        public Retweet(Guid RetweetedByUserId, Guid OrginalTweetId, Guid TweetId) : base(Guid.NewGuid())
         {
-            this.Id = Guid.NewGuid();
-            this.UserId = userId;
-            this.OrginalTweetId = orginalTweetId;
-            this.TweetId = tweetId;
+            this.ReTweetedByUserId = RetweetedByUserId;
+            this.OrginalTweetId = OrginalTweetId;
+            this.TweetId = TweetId;
         }
     }
 }
