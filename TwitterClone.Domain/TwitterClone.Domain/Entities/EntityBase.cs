@@ -18,9 +18,9 @@ namespace TwitterClone.Domain.Entities
             CreatedAt = DateTime.UtcNow;
         }
 
-        public string DescribeRecord()
+        public virtual string DescribeRecord()
         {
-            return $"Id: {Id}, CreatedAt: {CreatedAt}, ModifiedAt: {ModifiedAt}, CreatedBy: {CreatedBy}, ModifiedBy: {ModifiedBy}";
+            return $"Base Entity : Id: {Id}, CreatedAt: {CreatedAt}, ModifiedAt: {ModifiedAt}, CreatedBy: {CreatedBy}, ModifiedBy: {ModifiedBy}";
         }
     }
 }

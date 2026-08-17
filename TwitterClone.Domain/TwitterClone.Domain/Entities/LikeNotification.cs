@@ -11,5 +11,20 @@ namespace TwitterClone.Domain.Entities
         {
             LikeByOtherId = likeByOtherId;
         }
+
+        public void AddMessage(string message)
+        {
+            this.Message = message;
+        }
+        public override string DescribeRecord()
+        {
+            var baseRecord = base.DescribeRecord();
+            return $"{baseRecord}, LikeByOtherId: {LikeByOtherId} ,IsRead: {IsRead}";
+        }
+
+        public override string GetMessage()
+        {
+            return $"user with Id: {LikeByOtherId} liked your tweet";
+        }
     }
 }

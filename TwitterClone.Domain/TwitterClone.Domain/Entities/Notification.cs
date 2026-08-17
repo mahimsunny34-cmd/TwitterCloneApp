@@ -5,10 +5,10 @@ using System.Text;
 
 namespace TwitterClone.Domain.Entities
 {
-    public class Notification: EntityBase
+    public abstract class Notification: EntityBase
     {
         public Guid UserId { get; set; }
-        public string Message { get; set; }
+        protected string Message { get; set; }
         public string NotificationType { get;  set; }
         public Guid TweetId { get; set; }
         public bool IsRead { get; set; }
@@ -16,6 +16,13 @@ namespace TwitterClone.Domain.Entities
         public Notification(string notificationType):base(Guid.NewGuid())
         {
             this.NotificationType = notificationType;
-        }   
+        }
+
+        public string PrintNotification()
+        {
+            return $"receiver id {UserId} \n Message is {Message} \n Notification Type is {NotificationType} Tweet {TweetId} ";
+        }
+
+        public abstract string GetMessage();  
     }
 }

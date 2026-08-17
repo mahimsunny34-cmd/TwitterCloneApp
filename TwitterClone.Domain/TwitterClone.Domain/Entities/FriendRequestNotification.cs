@@ -11,5 +11,14 @@ namespace TwitterClone.Domain.Entities
         {
             this.RequestedBy = requestedBy;
         }
+
+        public void AddMessage(string message)
+        {
+            this.Message = message;
+        }
+        public override string GetMessage()
+        {
+            return $"This ID : {RequestedBy} sent you a friend request";
+        }
     }
 }
