@@ -16,8 +16,8 @@ public class Run
 
         foreach (var obj in objects)
         {
-            obj.GetMessage();
-            obj.PrintNotification();
+            Console.WriteLine(obj.GetMessage(),
+            obj.PrintNotification());
         }
     }
 }
