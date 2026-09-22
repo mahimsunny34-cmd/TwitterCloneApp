@@ -32,5 +32,28 @@ namespace TwitterClone.API.Controllers
             };
             return Ok(users);
         }
+
+        [HttpPost]
+        public IActionResult CreateUser()
+        {
+            var newUser = new User
+            {
+                FirstName = "sunny4",
+                Email = "s@dhcjks"
+            };
+            return Ok(newUser);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateUser()
+        {
+            return Ok("user updated");
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteUser()
+        {
+            return Ok("user deleted");
+        }
     }
 }
