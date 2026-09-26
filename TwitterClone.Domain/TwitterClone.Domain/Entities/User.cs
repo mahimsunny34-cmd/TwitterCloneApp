@@ -14,7 +14,10 @@ namespace TwitterClone.Domain.Entities
 
         public User() : base(Guid.NewGuid())
         {
+            
         }
+
+
 
         public void Follow(Guid userId)
         {
