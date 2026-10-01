@@ -1,8 +1,11 @@
+using TwitterClone.API.Data;
 using TwitterClone.Domain.Entities;
 
 //register services
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
+builder.Services.AddSingleton<TweetRepository>();
+builder.Services.AddSingleton<UserRepository>();
 
 
 
