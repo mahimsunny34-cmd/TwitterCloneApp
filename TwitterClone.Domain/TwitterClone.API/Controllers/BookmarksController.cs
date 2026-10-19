@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using TwitterClone.Application.Dtos;
+using TwitterClone.Application.Interfaces;
 using TwitterClone.Domain.Entities;
 
 namespace TwitterClone.API.Controllers
@@ -9,34 +11,42 @@ namespace TwitterClone.API.Controllers
     [Authorize]
     public class BookmarksController:ControllerBase
     {
+        public readonly IBookmarkService _bookmarkService;
+        public BookmarksController(IBookmarkService bookmarkService)
+        {
+            _bookmarkService = bookmarkService;
+        }
         [HttpGet]
         [AllowAnonymous]
         public IActionResult GetBookmarks()
         {
-            var bookMarks = new List<Bookmark>
-            {
-                new Bookmark(Guid.NewGuid(), Guid.NewGuid())
-            };
-            return Ok(bookMarks);
+            var bookmarks = _bookmarkService.GetBookmarks();
+            return Ok(bookmarks);
         }
 
         [HttpPost]
-        public IActionResult CreateBookmark()
+        [AllowAnonymous]
+        public IActionResult CreateBookmark([FromBody] CreateBookmarkDto dto)
         {
-            var newBookmark = new Bookmark(Guid.NewGuid(), Guid.NewGuid());
-            return Ok(newBookmark);
+            var createdBookmark=_bookmarkService.CreateBookmark(dto);
+            return Ok(createdBookmark);
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateBookmark(Guid id)
+        public IActionResult UpdateBookmark([FromRoute] Guid id, [FromBody] UpdateBookmarkDto dto)
         {
-            var updatedBookmark = new Bookmark(id, Guid.NewGuid());
+            var updatedBookmark=_bookmarkService.UpdateBookmark(id, dto);
             return Ok(updatedBookmark);
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteBookmark(Guid id)
+        public IActionResult DeleteBookmark([FromRoute] Guid id)
         {
+            var deleted=_bookmarkService.DeleteBookmark(id);
+            if (!deleted)
+            {
+                return NotFound($"Bookmark with ID {id} not found.");
+            }
             return Ok($"Bookmark with ID {id} deleted.");
         }
     }

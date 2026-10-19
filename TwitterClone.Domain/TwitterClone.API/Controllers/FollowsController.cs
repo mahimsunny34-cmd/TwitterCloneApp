@@ -38,6 +38,6 @@ namespace TwitterClone.API.Controllers
         public IActionResult DeleteFollow(Guid id)
         {
             return Ok($"Follow with ID {id} deleted.");
-        }]
+        }
     }
 }

@@ -1,8 +1,8 @@
 ﻿using TwitterClone.Domain.Entities;
-
+using TwitterClone.Application.Interfaces;
 namespace TwitterClone.API.Data
 {
-    public class TweetRepository
+    public class TweetRepository : ITweetRepository
     {
         private readonly List<Tweet> _tweets=new List<Tweet>();
 
@@ -21,19 +21,11 @@ namespace TwitterClone.API.Data
             }
         }
 
-        public Tweet? UpdateTweet(Guid id, string content)
+        public Tweet? UpdateTweet(Tweet updateTweet)
         {
-            var existingTweet=_tweets.SingleOrDefault(t=> t.Id == id);
-            if (existingTweet != null)
-            {
-                _tweets.Remove(existingTweet);
-                _tweets.Add(new Tweet(content, existingTweet.AuthorId));
-                return existingTweet;
-            }
-            else
-            {
-                return null;
-            }
+            _tweets.RemoveAll(t => t.Id == updateTweet.Id);
+            _tweets.Add(updateTweet);
+            return updateTweet;
         }
 
         public Tweet? DeleteTweet(Guid id)
