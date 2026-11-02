@@ -9,6 +9,8 @@ namespace TwitterClone.Domain.Entities
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
+        public string PasswordHash { get; set; }=string.Empty;
+
         public List<Guid> _followers=new List<Guid>();
         public List<Guid> _incomingNotifications=new List<Guid>();
 

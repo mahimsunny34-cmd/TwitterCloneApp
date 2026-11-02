@@ -8,12 +8,12 @@ namespace TwitterClone.Domain.Entities
     {
         public Guid ReTweetedByUserId { get; set; }
         public Guid OrginalTweetId { get; set; }
-        public Guid TweetId { get; set; }
-        public Retweet(Guid RetweetedByUserId, Guid OrginalTweetId, Guid TweetId) : base(Guid.NewGuid())
+        public string Content { get; set; }
+        public Retweet(Guid RetweetedByUserId, Guid OrginalTweetId, string content) : base(Guid.NewGuid())
         {
             this.ReTweetedByUserId = RetweetedByUserId;
             this.OrginalTweetId = OrginalTweetId;
-            this.TweetId = TweetId;
+            this.Content = content;
         }
     }
 }
