@@ -10,9 +10,11 @@ namespace TwitterClone.Application.Services
     public class UserService : IUserService
     {
         private readonly IUserRepository _userRepo;
-        public UserService(IUserRepository userRepo)
+        private readonly IPasswordHasher _passwordHasher;
+        public UserService(IUserRepository userRepo,IPasswordHasher passwordHasher1)
         {
             _userRepo = userRepo;
+            _passwordHasher = passwordHasher1;
         }
         public ReadUserDto? CreateUser(CreateUserDto createUserDto)
         {
@@ -33,7 +35,8 @@ namespace TwitterClone.Application.Services
             {
                 FirstName = createUserDto.FirstName,
                 LastName = createUserDto.LastName,
-                Email = createUserDto.Email
+                Email = createUserDto.Email,
+                HashedPassword = _passwordHasher.Hash(createUserDto.ToDto(), createUserDto.Password)
             };
 
             var createdUser = _userRepo.AddUser(user); //The user object is added to the UserRepository and stored in the createdUser variable.
