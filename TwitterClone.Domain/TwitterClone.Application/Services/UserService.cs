@@ -4,6 +4,7 @@ using System.Text;
 using TwitterClone.API.Dtos;
 using TwitterClone.Application.Interfaces;
 using TwitterClone.Domain.Entities;
+using TwitterClone.Utilities;
 
 namespace TwitterClone.Application.Services
 {
@@ -79,7 +80,7 @@ namespace TwitterClone.Application.Services
 
         public ReadUserDto? UpdateUser(Guid id, UpdateUserDto updateUserDto)
         {
-            if (Guid.Empty == id || string.IsNullOrWhiteSpace(updateUserDto.FirstName) || string.IsNullOrWhiteSpace(updateUserDto.LastName))
+            if (Guid.Empty == id || string.IsNullOrWhiteSpace(updateUserDto.FirstName) || string.IsNullOrWhiteSpace(updateUserDto.LastName) || updateUserDto.FirstName.IsLong())
             {
                 return null;
             }
