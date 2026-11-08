@@ -12,32 +12,31 @@ namespace TwitterClone.API.Controllers
     {
         [HttpGet]
         [AllowAnonymous]
-        public IActionResult GetFollows()
+        public IActionResult GetFollows([FromQuery] string user)
         {
-            var follows = new List<Follow>
-            {
-                new Follow(Guid.NewGuid(), Guid.NewGuid()),
-            };
-            return Ok(follows);
+            return Ok();
         }
+        [HttpGet("following/{userId}")]
+        public IActionResult GetFollowing([FromQuery] Guid userId)
+        {
+            return Ok();
+        }
+        [HttpGet("followers/{userId}")]
+        public IActionResult GetFollowers([FromQuery] Guid userId)
+        {
+            return Ok();
+        }
+
         [HttpPost]
-        public IActionResult CreateFollow()
+        public IActionResult CreateFollow([FromBody] Follow follow)
         {
-            var newFollow = new Follow (Guid.NewGuid(), Guid.NewGuid());
-            return Ok(newFollow);
+            return Ok();
         }
 
-        [HttpPut("{id}")]
-        public IActionResult UpdateFollow([FromRoute] Guid id)
+        [HttpDelete("{userId}")]
+        public IActionResult UnfollowUser([FromRoute] Guid userId)
         {
-            var updatedFollow = new Follow(id, Guid.NewGuid());
-            return Ok(updatedFollow);
-        }
-
-        [HttpDelete("{id}")]
-        public IActionResult DeleteFollow(Guid id)
-        {
-            return Ok($"Follow with ID {id} deleted.");
+            return Ok();
         }
     }
 }

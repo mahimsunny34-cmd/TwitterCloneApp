@@ -19,6 +19,9 @@ builder.Services.AddScoped<IBookmarkService, BookmarkService>();
 builder.Services.AddSingleton<IRetweetRepository, RetweetRepository>();
 builder.Services.AddScoped<IRetweetService, RetweetService>();
 
+builder.Services.AddSingleton<IFollowRepository, FollowRepository>();
+builder.Services.AddScoped<IFollowService, FollowService>();
+
 // Configure the HTTP request pipeline.
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
