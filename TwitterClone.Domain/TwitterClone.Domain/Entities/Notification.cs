@@ -11,7 +11,8 @@ namespace TwitterClone.Domain.Entities
         protected string Message { get; set; }
         public string NotificationType { get;  set; }
         public Guid TweetId { get; set; }
-        public bool IsRead { get; set; }
+        public bool IsRead { get; set; } = false;
+
 
         public Notification(string notificationType):base(Guid.NewGuid())
         {

@@ -16,9 +16,18 @@ namespace TwitterClone.Infrastratcure.Repositories
             return msg;
         }
 
-        public List<Message> ShowAllMessages()
+        public List<Message> ShowAllMessages(Guid senderId, Guid receiverId)
         {
-            return _message;
+            var messages = _message;
+            if(senderId!=Guid.Empty)
+            {
+                messages=messages.Where(m=>m.SenderId == senderId).ToList();
+            }
+            if (receiverId != Guid.Empty)
+            {
+                messages = messages.Where(m => m.ReceiverId == receiverId).ToList() ;
+            }
+            return messages.ToList() ;
         }
 
         public Message? GetMessageById(Guid id)
@@ -36,6 +45,15 @@ namespace TwitterClone.Infrastratcure.Repositories
             _message.RemoveAll(m => m.Id == updatedMsg.Id);
             _message.Add(updatedMsg);
             return updatedMsg;
+        }
+
+        public List<Message> GetConversations(Guid senderId,Guid receiverId)
+        {
+            return _message.Where(m=>
+                                 (m.SenderId==senderId && receiverId == m.ReceiverId) 
+                                 ||
+                                 (m.SenderId == receiverId || m.ReceiverId == senderId))
+                                 .ToList();
         }
 
         public bool DeleteMessage(Guid id)

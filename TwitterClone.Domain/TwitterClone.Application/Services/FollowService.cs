@@ -109,5 +109,20 @@ namespace TwitterClone.Application.Services
             var unfollow=_followRepo.DeleteFollow(id);
             return unfollow;
         }
+
+        public List<FollowDto>? ShowAllFollows(Guid? followerId, Guid? followingId)
+        {
+            var follows=_followRepo.ShowAllFollows(followerId, followingId);
+            if (follows == null)
+            {
+                return null;
+            }
+
+            return follows.Select(f => new FollowDto
+            {
+                FollowerId = f.FollowerId,
+                FollowingId = f.FollowingId
+            }).ToList();
+        }
     }
 }

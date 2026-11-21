@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TwitterClone.Application.Dtos;
+using TwitterClone.Application.Interfaces;
 using TwitterClone.Domain.Entities;
 
 namespace TwitterClone.API.Controllers
@@ -10,33 +12,41 @@ namespace TwitterClone.API.Controllers
     [Authorize]
     public class FollowsController : ControllerBase
     {
+        
+        public readonly IFollowService _followService;
+        public FollowsController(IFollowService followService)
+        {
+            _followService = followService;
+        }
         [HttpGet]
         [AllowAnonymous]
-        public IActionResult GetFollows([FromQuery] string user)
+        public IActionResult GetFollows([FromQuery] Guid followerId, [FromQuery] Guid followingId)
         {
-            return Ok();
+            return Ok(_followService.ShowAllFollows(followerId, followingId));
         }
         [HttpGet("following/{userId}")]
         public IActionResult GetFollowing([FromQuery] Guid userId)
         {
-            return Ok();
+            return Ok(_followService.ShowAllFollowing(userId));
         }
         [HttpGet("followers/{userId}")]
         public IActionResult GetFollowers([FromQuery] Guid userId)
         {
-            return Ok();
+            return Ok(_followService.ShowFollowers(userId));
         }
 
         [HttpPost]
-        public IActionResult CreateFollow([FromBody] Follow follow)
+        public IActionResult CreateFollow([FromBody] FollowDto followDto)
         {
-            return Ok();
+            var follow=_followService.AddFollow(followDto);
+            return Ok(follow);
         }
 
         [HttpDelete("{userId}")]
-        public IActionResult UnfollowUser([FromRoute] Guid userId)
+        public IActionResult DeleteFollow([FromRoute] Guid id)
         {
-            return Ok();
+            var result = _followService.DeleteFollow(id);
+            return Ok(result);
         }
     }
 }

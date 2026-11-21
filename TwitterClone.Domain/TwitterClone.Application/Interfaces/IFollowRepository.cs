@@ -9,7 +9,7 @@ namespace TwitterClone.Application.Interfaces
     public interface IFollowRepository
     {
         Follow? AddFollow(Follow follow);
-        List<Follow> ShowAllFollows();
+        List<Follow> ShowAllFollows(Guid? followerId, Guid? followingId);
         Follow? GetFollowById(Guid id);
         List<Follow>? Followers(Guid id);
         List<Follow> Following(Guid userId);

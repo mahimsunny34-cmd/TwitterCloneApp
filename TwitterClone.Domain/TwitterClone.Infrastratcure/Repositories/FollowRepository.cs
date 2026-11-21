@@ -15,9 +15,18 @@ namespace TwitterClone.Infrastratcure.Repositories
             return follow;
         }
 
-        public List<Follow> ShowAllFollows()
+        public List<Follow> ShowAllFollows(Guid? followerId, Guid? followingId)
         {
-            return _follows;
+            var follows = _follows;
+            if (followerId != null)
+            {
+                follows = follows.Where(f => f.FollowerId == followerId).ToList();
+            }
+            if (followingId != null)
+            {
+                follows = follows.Where(f => f.FollowingId == followingId).ToList();
+            }
+            return follows;
         }
 
         public Follow? GetFollowById(Guid id)
@@ -51,5 +60,7 @@ namespace TwitterClone.Infrastratcure.Repositories
             var users = _follows.Where(f => f.FollowerId == id).ToList();
             return users;
         }
+
+        
     }
 }
